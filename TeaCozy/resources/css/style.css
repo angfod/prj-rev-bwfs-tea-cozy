@@ -1,0 +1,125 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  border-bottom: solid seashell 1px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start; /* should be center */ /* might need flex-wrap: wrap*/
+  z-index: 5;
+
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+#container {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+#mission {
+  padding-top: 69px;
+  display: flex;
+  background-image: url("file:///C:/projects/TeaCozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#ourMission {
+  margin: auto;
+  width: 100%;
+}
+
+#locations {
+  background-image: url("file:///C:/projects/TeaCozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 69px;
+}
+
+#locations .locations{
+  margin: auto;
+  width: 1200px;
+}
+
+.location{
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact {
+  height: 200px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+#contact h2 {
+  justify-content: center;
+  text-align: center;
+}
+
+#teaofthemonth {
+  width: 1000px;
+    height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 5px;
+  width: 300px;
+}
+
+.item img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  margin-left: 20px;
+  position: relative;
+}
